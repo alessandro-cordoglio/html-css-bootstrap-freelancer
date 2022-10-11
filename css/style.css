@@ -1,0 +1,6 @@
+/* variables */
+:root {
+    --ms-primary-color:#1ABC9C;/* some main section, buttons*/
+    --ms-secondary-color:#2C3E50; /* footer-header */
+    --ms-third-color:#3A546D; /* last main section */
+}
