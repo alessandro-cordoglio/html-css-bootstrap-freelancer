@@ -4,3 +4,49 @@
     --ms-secondary-color:#2C3E50; /* footer-header */
     --ms-third-color:#3A546D; /* last main section */
 }
+
+/* utilities */   
+
+.bg-color-primary{
+    background-color: var(--ms-primary-color);
+}
+.bg-color-secondary{
+    background-color: var(--ms-secondary-color);
+}
+.bg-color-third{
+    background-color: var(--ms-third-color);
+}
+.font-white{
+    color: white;
+}
+.font-black{
+    color: black;
+}
+.padding-lr-headerlike{
+    padding: 0 150px;
+}
+/* .padding-lr-fsectionlike{
+    padding: 0 400px;
+} */
+
+
+/* ..................DOCUMENT STYLE............... */
+/* HEADER */
+.ms-doc-title h1{
+    font-size: 25px ;
+    font-weight: 700;
+}
+.ms-header-nav li, a{
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* MAIN */
+/* intro */
+.intro-img{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
