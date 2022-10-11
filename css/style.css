@@ -2,11 +2,10 @@
 :root {
     --ms-primary-color:#1ABC9C;/* some main section, buttons*/
     --ms-secondary-color:#2C3E50; /* footer-header */
-    --ms-third-color:#3A546D; /* last main section */
+    --ms-third-color:#3A546D; /* first footer section */
 }
 
-/* utilities */   
-
+/*................UTILITIES........................*/   
 .bg-color-primary{
     background-color: var(--ms-primary-color);
 }
@@ -16,18 +15,22 @@
 .bg-color-third{
     background-color: var(--ms-third-color);
 }
-.font-white{
-    color: white;
+/* esiste "text-white" cambia le classi!!! */
+
+
+
+/* ..................DEBUG........................ */
+.debug .portfolio-img-container{
+    height: 200px;
 }
-.font-black{
-    color: black;
+.debug .portfolio-img-container{
+    background-color: blue;
 }
-.padding-lr-headerlike{
-    padding: 0 150px;
+.debug .intro-img{
+    width: 200px;
+    height: 200px;
+    background-color: white;
 }
-/* .padding-lr-fsectionlike{
-    padding: 0 400px;
-} */
 
 
 /* ..................DOCUMENT STYLE............... */
@@ -42,21 +45,12 @@
     text-decoration: none;
     font-weight: 700;
 }
-
 .hide{
     display: none;
 }
-/* MAIN */
-/* intro */
-.intro-img{
-    width: 200px;
-    height: 200px;
-    background-color: white;
-}
 
 
-
-/* RESPONSIVE RULES */
+/*..................RESPONSIVE RULES............. */
 @media all and (min-width:768px){
     .hide{
         display: block;
