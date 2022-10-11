@@ -43,10 +43,25 @@
     font-weight: 700;
 }
 
+.hide{
+    display: none;
+}
 /* MAIN */
 /* intro */
 .intro-img{
     width: 200px;
     height: 200px;
     background-color: white;
+}
+
+
+
+/* RESPONSIVE RULES */
+@media all and (min-width:768px){
+    .hide{
+        display: block;
+    }
+    .hamburger{
+        display: none;
+    }
 }
