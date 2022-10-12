@@ -15,7 +15,7 @@
 .bg-color-third{
     background-color: var(--ms-third-color);
 }
-/* esiste "text-white" cambia le classi!!! */
+
 
 
 
@@ -34,28 +34,10 @@
 
 
 /* ..................DOCUMENT STYLE............... */
-/* HEADER */
-.ms-doc-title h1{
-    font-size: 25px ;
-    font-weight: 700;
-}
-.ms-header-nav li, a{
-    margin-left: 20px;
-    color: white;
-    text-decoration: none;
-    font-weight: 700;
-}
-.hide{
-    display: none;
+
+.portfolio-img img{
+    width: 100%;
+    border-radius: 10px;
 }
 
 
-/*..................RESPONSIVE RULES............. */
-@media all and (min-width:768px){
-    .hide{
-        display: block;
-    }
-    .hamburger{
-        display: none;
-    }
-}
