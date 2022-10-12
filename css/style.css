@@ -41,7 +41,7 @@
 }
 .ms-container-padding{
     padding: 0 150px !important;
-    overflow: auto;
+    overflow: hidden;
 }
 .ms-name-form{
     border-bottom: 1px solid lightgray;
