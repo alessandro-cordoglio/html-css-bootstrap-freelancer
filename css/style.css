@@ -52,3 +52,7 @@
 .ms-btn-send{
     background-color: var(--ms-primary-color) !important;
 }
+
+#footer-copyright p{
+    font-size: 15px;
+}
